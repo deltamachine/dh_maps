@@ -1,0 +1,102 @@
+.page-header {
+	font-size: 1.6rem;
+}
+
+.page-header:first-child {
+    margin-top: 0px !important;
+ }
+
+ .regular-text {
+ 	font-size: 1.1rem;
+ 	text-align: justify;
+ }
+
+.bold {
+	line-height: 44px !important;
+}
+
+.visible {
+	display: block;
+}
+
+.non-visible {
+	display: none;
+}
+
+.main-row {
+	width: 100% !important;
+	margin-bottom: 0px;
+	padding: 0px;
+	margin: 0px;
+	height: 100% !important;
+	margin-top: 1%;
+}
+
+.page-content-col {
+	background-color: white;
+	color: #29283f;
+	margin-left: 0px !important;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	padding-top: 3% !important;
+	padding-bottom: 3% !important;
+	text-align: justify;
+}
+
+.main-navbar {
+	background-color: #0197a5;
+	width: 100vw !important;
+}
+
+.main-menu-items {
+    font-size: 1.1rem !important;	
+}
+
+.logo-img {
+	width: 90%;
+	margin-top: 15%;
+	margin-left: 17%;
+}
+
+.hide-on-med-and-down {
+	margin-left: 7% !important;
+}
+
+.bold {
+    line-height: 35px;
+    cursor: pointer !important;
+}
+
+.btn {
+	background-color: #0197a5 !important;
+}
+
+.header-row {
+	margin-bottom: 0px !important;
+}
+
+.header-col {
+	padding-left: 0px !important;
+	color: #29283f;
+}
+
+.img-col {
+	padding-top: 5% !important;
+	padding-left: 4% !important;
+}
+
+.site-title {
+	font-size: 3.1rem;
+	margin-bottom: 2%;
+}
+
+.site-description {
+	font-size: 2.1rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.site-img {
+	width: 100%;
+	height: 100%;
+}

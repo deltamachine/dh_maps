@@ -1,0 +1,31 @@
+<form action="/upload/map" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    <div class="row">
+        <div class="input-field col s6">
+          {{ form.map_name.errors }}
+          {{ form.map_name }}
+          <label for="{{ form.map_name.id_for_label }}">Название карты</label>
+        </div>
+
+        <div class="col s6"></div>
+    </div>
+
+    <div class="row">
+        <div class="file-field input-field col s6" style="margin-top: 0px;">
+            <div>
+                <a class="btn">Выбрать файл</a>
+                {{ form.data.errors }}
+                {{ form.data }}
+            </div>
+
+            <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Загрузите один файл в формате .csv">
+            </div>
+        </div>
+
+        <div class="col s6"></div>
+    </div>
+
+    <input type="submit" value="Отправить">
+</form>
